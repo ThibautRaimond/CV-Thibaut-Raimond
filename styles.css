@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: lightblue;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+}
+
+/* -------------- LEFT SECTION -------------- */
+
+.container__leftSection {
+  position: relative;
+  padding: 40px;
+  background: #003147;
+  color: #fff;
+}
+.leftSection__title {
+  margin: 15px 0px 5px 0px;
+  color: rgb(148, 203, 221);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.75em;
+}
+
+/* ----- PHOTO ----- */
+.leftSection__pictureContainer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.leftSection__picture {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* -------  PROFIL PROFFESSSIONNEL -------  */
+.leftSection__profilPro {
+  margin-bottom: 4em;
+
+}
+.profilPro__text {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+/* ------- Languages ------- */
+.leftSection__languages {
+  margin-bottom: 4em;
+}
+#languagesTitle {
+  margin-bottom: 0.75em;
+}
+.languageTitle {
+  color: #03a9f4;
+  font-weight: 800;
+}
+.language__frLvl {
+  margin-bottom: 1em;
+}
+.languages__language .percent {
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+}
+.languages__language .percent div {
+  background: #03a9f4;
+  height: 100%;
+}
+.lvl {
+  margin-top: 5px;
+}
+
+/* ------- Compétences Skills + Centre d'intérêts ------- */
+.leftSection__skills{
+  margin-bottom: 4em;
+}
+
+.skills__skillsList, .hoobies__array{
+  line-height: 1.5em;
+}
+
+/* --------------------- Right Section ---------------------  */
+
+.container__rightSection {
+  position: relative;
+  padding: 40px 40px 0px 40px;
+  background-color: #fff;
+  color: #081921;
+  line-height: 1.1em;
+  font-weight: 500;
+}
+.rightSection__title {
+  margin: 15px 0px 5px 0px;
+  color: #123b4c;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 0.75em;
+}
+.rightSection__zone{
+  margin-bottom: 3em;
+}
+.placeDate{
+  font-weight: bold;
+  font-style: inherit;
+}
+.organisme{
+  color: #484B4D;
+  font-style: italic
+}
+
+
+/* ------- Thib dev web ------- */
+
+.rightSection__profil {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 1.4em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    background-image: linear-gradient(to left, #001658, #23deff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+.rightSection__profil span {
+  font-weight: 300;
+}
+
+/* --- CONTACT --- */
+
+.zone__array {
+  position: relative;
+}
+.array__information {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.information__icon {
+  color: #03a9f4;
+}
+.information__text {
+  font-weight: 300;
+}
+
+/* -- EXPERIENCE PROFFESSIONNELLES -- */
+
+.rightSection__exp {
+ 
+}
+
+.box {
+  margin-bottom: 1em;
+}
+
+
+/* --- FORMATIONS --- */
+
+.formation__list{
+  margin-bottom: 1em;
+}
+
+
