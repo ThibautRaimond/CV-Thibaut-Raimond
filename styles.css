@@ -212,7 +212,7 @@ body {
   color: black;
   text-decoration: none;
 }
-.fa-linkedin {
+.fa-linkedin, .fa-github {
   color: #03a9f4;
   text-decoration: none;
 }
@@ -222,6 +222,7 @@ body {
 .gmail {
   cursor: auto;
 }
+
 /* -- EXPERIENCE PROFFESSIONNELLES -- */
 
 .box {
@@ -301,12 +302,17 @@ body {
     line-height: 10px;
     margin-top: 0.5em;
   }
-
   .leftSection__title {
     margin: 0px;
     font-size: 20px;
     margin-bottom: 0em;
   }
+  .leftSection__languages,
+  .leftSection__profilPro,
+  .leftSection__skills {
+    margin-bottom: 1.5em;
+  }
+
 
   /* ----- PHOTO ----- */
   .leftSection__pictureContainer {
@@ -314,9 +320,6 @@ body {
   }
 
   /* -------  PROFIL PROFFESSSIONNEL -------  */
-  .leftSection__profilPro {
-    margin-bottom: 4em;
-  }
   .profilPro__text {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -338,9 +341,6 @@ body {
   }
 
   /* ------- Compétences Skills + Centre d'intérêts ------- */
-  .leftSection__skills {
-    margin-bottom: 4em;
-  }
 
   .skills__skillsList,
   .hoobies__array {
@@ -359,19 +359,13 @@ body {
     font-size: 26px;
   }
   .rightSection__zone {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.3em;
   }
 
   /* ------- Thib dev web ------- */
 
   .rightSection__profil {
     display: none !important;
-  }
-
-  .leftSection__languages,
-  .leftSection__profilPro,
-  .leftSection__skills {
-    margin-bottom: 1.5em;
   }
 
   .fa-youtube{
