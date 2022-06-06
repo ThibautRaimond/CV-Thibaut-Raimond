@@ -215,6 +215,7 @@ body {
 }
 .fa-linkedin{
   color: #03a9f4;
+  text-decoration: none;
 }
 .fa-envelope{
   cursor: auto;
@@ -236,6 +237,10 @@ body {
   padding: 0.1em 0.5em;
   margin-bottom: 1em;
   border: solid 0.1px #03a9f4;
+}
+.fa-youtube{
+  text-decoration: none;
+  color: red;
 }
 
 /* ----------------- RESPONSIVE --------------- */
