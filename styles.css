@@ -84,15 +84,15 @@ body {
 
 /* -------  PROFIL PROFFESSSIONNEL -------  */
 .leftSection__profilPro {
-  margin-bottom: 4em;
+  margin-bottom: 4.2em;
 }
 .profilPro__text {
   margin-top: 1em;
-  margin-bottom: 4em;
+  margin-bottom: 4.2em;
 }
 /* ------- Languages ------- */
 .leftSection__languages {
-  margin-bottom: 4em;
+  margin-bottom: 4.2em;
 }
 #languagesTitle {
   margin-bottom: 0.75em;
@@ -121,7 +121,7 @@ body {
 
 /* ------- Compétences Skills + Centre d'intérêts ------- */
 .leftSection__skills {
-  margin-bottom: 4em;
+  margin-bottom: 4.2em;
 }
 
 .skills__skillsList,
@@ -359,7 +359,7 @@ body {
     font-size: 26px;
   }
   .rightSection__zone {
-    margin-bottom: 1em;
+    margin-bottom: 1.8em;
   }
 
   /* ------- Thib dev web ------- */
