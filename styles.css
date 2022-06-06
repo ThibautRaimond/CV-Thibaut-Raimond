@@ -256,14 +256,17 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+  }
+  .profilPro__text{
+    margin-bottom: 1em;
+  }
+  .leftSection__languages, .leftSection__profilPro, .leftSection__skills {
+    margin-bottom: 2.4em;
   }
   .leftSection__profil span{
     text-transform: none;
     font-size: 20px;
-  }
-  .leftSection__title .profilPro__title{
-    margin-top: 10em;
   }
   .rightSection__profil {
     display: none;
@@ -272,9 +275,22 @@ body {
 
 /* ------- PRINT ------- */
 
-@media print { 
-  *
-  {
-    font-size: 0.1em;
+@media print {
+
+  body {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
   }
+
+  *{
+    padding: 0px 0px;
+    margin: 0px;
+  };
+
 }
