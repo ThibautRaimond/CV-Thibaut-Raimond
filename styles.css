@@ -194,9 +194,6 @@ body {
 
 /* --- CONTACT --- */
 
-.zone__array {
-  position: relative;
-}
 .array__information {
   margin: 10px 0;
   cursor: pointer;
@@ -204,11 +201,8 @@ body {
 .information__icon {
   color: #03a9f4;
 }
-.information__text {
+.information__text, .information__textLink{
   font-weight: 300;
-}
-
-.information__text {
   color: black;
   text-decoration: none;
 }
@@ -216,12 +210,14 @@ body {
   color: #03a9f4;
   text-decoration: none;
 }
-.fa-envelope {
-  cursor: auto;
-}
 .gmail {
   cursor: auto;
 }
+
+.information__textLink:hover, .fa-linkedin:hover, .fa-github:hover, .fa-map-location-dot:hover{
+  color: #ffb700;
+}
+
 
 /* -- EXPERIENCE PROFFESSIONNELLES -- */
 
@@ -241,6 +237,13 @@ body {
 .fa-youtube {
   text-decoration: none;
   color: red;
+}
+.codeDuDev{
+  color: #03a9f4;
+  text-decoration: none;
+}
+.fa-youtube:hover, .codeDuDev:hover {
+  color: #ffb700
 }
 
 /* ----------------- RESPONSIVE --------------- */
