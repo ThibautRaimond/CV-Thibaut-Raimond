@@ -291,9 +291,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 0em;
-    margin-bottom: 1em;
-    margin-right: 1.5em;
+    margin-bottom: 0.75em;
+    margin-top: 0.2em;
+    align-items: center;
   }
   .leftSection__profil span {
     font-family: "Open Sans", sans-serif;
@@ -310,21 +310,21 @@ body {
   .leftSection__languages,
   .leftSection__profilPro,
   .leftSection__skills {
-    margin-bottom: 1.3em;
+    margin-bottom: 1.2em;
   }
-
-
+  
+  
   /* ----- PHOTO ----- */
   .leftSection__pictureContainer {
     padding: 0px;
   }
-
+  
   /* -------  PROFIL PROFFESSSIONNEL -------  */
   .profilPro__text {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
-
+  
   /* ---------- LANGUES ---------- */
   #languagesTitle {
     margin: 0;
@@ -339,16 +339,16 @@ body {
   .percent {
     display: none !important;
   }
-
+  
   /* ------- Compétences Skills + Centre d'intérêts ------- */
-
+  
   .skills__skillsList,
   .hoobies__array {
     line-height: 1.5em;
   }
-
+  
   /* --------------------- Right Section ---------------------  */
-
+  
   .container__rightSection {
     position: relative;
     padding: 0px;
@@ -361,13 +361,13 @@ body {
   .rightSection__zone {
     margin-bottom: 1.3em;
   }
-
+  
   /* ------- Thib dev web ------- */
-
+  
   .rightSection__profil {
     display: none !important;
   }
-
+  
   .fa-youtube{
     display: none !important;
   }
