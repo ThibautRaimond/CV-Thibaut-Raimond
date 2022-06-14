@@ -293,7 +293,7 @@ body {
     text-align: center;
     margin-bottom: 0.75em;
     margin-top: 0.2em;
-    align-items: center;
+    margin-right: 1em;
   }
   .leftSection__profil span {
     font-family: "Open Sans", sans-serif;
