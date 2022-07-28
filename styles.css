@@ -286,6 +286,7 @@ body {
   .container__leftSection {
     padding: 0px;
     margin-left: 0.5em;
+    color: black;
   }
   .leftSection__profil {
     display: flex;
