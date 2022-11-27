@@ -303,6 +303,7 @@ body {
     padding: 5px;
   }
   .leftSection__title{
+	margin-top: 35px;
     text-decoration: underline;
 
   }
@@ -318,6 +319,241 @@ body {
   .fa-youtube {
 	display: none !important;
   }
+  ..leftSection__profil {
+  margin-top: 5px ;
+  color: #eaa30c;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 0.75em;
+}
+
+
+/* -- PICTURE -- */
+.leftSection__pictureContainer {
+  padding: 0px;
+}
+.leftSection__profil {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+/* THIB DEV */
+.leftSection__profil span {
+  text-transform: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 0.5em;
+  color: #03a9f4;
+}
+
+.leftSection__title {
+  margin: 55px 0px 10px 0px;
+  color: #eaa30c;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.leftSection__languages{
+	margin-top: 55px;
+}
+
+/* ----- PHOTO ----- */
+.leftSection__pictureContainer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 20px 30px 0px 30px ;
+}
+
+.leftSection__picture {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ------- Other formations and job ------- */
+.otherFormations{
+  margin-top: 1.75em;
+}
+
+.job, .formation {
+  color: #03a9f4;
+}
+
+.leftSection__otherJobsContainer{
+  margin-bottom: 0.75em;
+  padding: 0em 0.5em;
+  border: solid 1px white;
+}
+
+.enseigne{
+  font-style: italic;
+}
+
+/* ------- Languages ------- */
+#languagesTitle {
+  margin-bottom: 0.50em;
+  margin-top: 0.50em;
+}
+.languageTitle {
+  color: #03a9f4;
+  font-weight: 800;
+}
+.language__frLvl {
+  margin-bottom: 0.5em;
+}
+.languages__language .percent {
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+}
+.languages__language .percent div {
+  background: #03a9f4;
+  height: 100%;
+}
+.lvl {
+  margin-top: 5px;
+}
+
+/* ------- Compétences Skills + Centre d'intérêts ------- */
+.skills__skillsList,
+.hoobies__array {
+  line-height: 1.5em;
+}
+..leftSection__profil {
+  margin-top: 5px ;
+  color: #eaa30c;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 0.75em;
+}
+
+
+/* -- PICTURE -- */
+.leftSection__pictureContainer {
+  padding: 0px;
+}
+.leftSection__profil {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+/* THIB DEV */
+.leftSection__profil span {
+  text-transform: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 0.5em;
+  color: #03a9f4;
+}
+
+.leftSection__title {
+  margin: 55px 0px 10px 0px;
+  color: #eaa30c;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.leftSection__languages{
+	margin-top: 55px;
+}
+
+/* ----- PHOTO ----- */
+.leftSection__pictureContainer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 20px 30px 0px 30px ;
+}
+
+.leftSection__picture {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ------- Other formations and job ------- */
+.otherFormations{
+  margin-top: 1.75em;
+}
+
+.job, .formation {
+  color: #03a9f4;
+}
+
+.leftSection__otherJobsContainer{
+  margin-bottom: 0.75em;
+  padding: 0em 0.5em;
+  border: solid 1px white;
+}
+
+.enseigne{
+  font-style: italic;
+}
+
+/* ------- Languages ------- */
+#languagesTitle {
+  margin-bottom: 0.50em;
+  margin-top: 0.50em;
+}
+.languageTitle {
+  color: #03a9f4;
+  font-weight: 800;
+}
+.language__frLvl {
+  margin-bottom: 0.5em;
+}
+.languages__language .percent {
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+}
+.languages__language .percent div {
+  background: #03a9f4;
+  height: 100%;
+}
+.lvl {
+  margin-top: 5px;
+}
+
+/* ------- Compétences Skills + Centre d'intérêts ------- */
+.skills__skillsList,
+.hoobies__array {
+  line-height: 1.5em;
+}
+.contact{
+	margin-top: 5px;
+}
 }
 
 
